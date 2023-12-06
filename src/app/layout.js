@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className=" bg-gray-200 dark:bg-indigo-950 ">
-          <div className=" max-w-[1536px] sm:max-w-[475px] md:max-w-[640px] lg:max-w-[768px] xl:max-w-[1040px] 2xl:max-w-[1366px] mx-auto px-10 border-2 border-black min-h-[100vh] flex flex-col justify-between">
+          <div className=" max-w-[1536px] sm:max-w-[475px] md:max-w-[640px] lg:max-w-[768px] xl:max-w-[1040px] 2xl:max-w-[1366px] mx-auto px-10 border-2 border-black min-h-[100vh] flex flex-col gap-10">
             <Navbar />
             {children}
             <Footer />
