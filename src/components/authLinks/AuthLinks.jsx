@@ -3,7 +3,7 @@ import React from "react";
 import Button from "../button/Button";
 
 const AuthLinks = () => {
-  const status = "unauthenticated";
+  const status = "authenticated";
   return (
     <div>
       {status === "unauthenticated" ? (
@@ -13,7 +13,7 @@ const AuthLinks = () => {
       ) : (
         <div className=" flex gap-10">
           <Button>
-            <Link href={"/writeblog"}>Write Blog</Link>
+            <Link href={"/write"}>Write Blog</Link>
           </Button>
           <Button>Logout</Button>
         </div>
